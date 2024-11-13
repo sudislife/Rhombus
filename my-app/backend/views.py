@@ -19,7 +19,7 @@ def upload_file(request):
     # Process the file (assuming it's a CSV)
     df = pd.read_csv(file)
     df = infer_and_convert_data_types(df, num_sensitivity, cat_sensitivity)
-    print(df.head())
+    print(df.dtypes, type(df.dtypes))
 
     res = df.to_json(orient='split')
     print('Response: ', res)
