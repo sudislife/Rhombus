@@ -34,5 +34,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# PyCache
+backend/__pycache__
+
 # Backup
 app/home_backup
