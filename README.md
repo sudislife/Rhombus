@@ -24,6 +24,10 @@ To get started with Rhombus, follow these steps:
     - For the Django backend, use `python manage.py runserver 8000`.
 4. Open the application in your browser and upload a CSV file to see the data inference in action.
 
+## Note
+The frontend currently does not handle the response after receiving it. To check the response, you can view it in the browser console. Additionally, the inferred data types can be viewed in the log statements of the Django backend terminal.
+
+
 ## Acknowledgements
 - [NextUI](https://nextui.org/)
 - [Django](https://www.djangoproject.com/)
